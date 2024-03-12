@@ -1,0 +1,522 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: content-box;
+}
+body {
+	background-color: #ffffff;
+	max-width: 100%;
+	height: auto;
+	font-family: Inter,sans-serif;
+	justify-content: center;
+}
+.header {
+	margin: 40px 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.header h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+.main {
+	justify-content: center;
+	background-color: #d9d99b;
+	margin: 20px;
+	height: auto;
+}
+h2 {
+	font-size: 30px;
+	padding-top: 20px;
+	text-align: center;
+}
+p {
+	font-size: 20px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+#nome {
+	margin-top: 50px;
+	margin-left: 40px;
+	background-color: #d7d7d7;
+	width: 500px;
+	height: 20px;
+	font-size: 15px;
+	border-radius: 4px;
+	border-width: 2px;
+	border-style: solid;
+	padding-left: 20px;
+	text-align: center;
+}
+#estado {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 200px;
+    height: 20px;
+	font-size: 15px;
+    border-width: 2px;
+	border-style: solid;
+	padding-left: 20px;
+}
+#botao {
+	width: 200px;
+	height: 20px;
+	font-size: 15px;
+	background-color: #d7d7d7;
+	border-radius: 4px;
+	margin-top: 20px;
+	margin-left: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+#tabelaResultado {
+	height: auto;
+	text-align: center;
+	justify-content: center;
+	margin-top: 50px;
+	margin-left: 40px;
+    margin-bottom: 20px;
+}
+.localidade {
+        background-color: #fafad2;
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+}
+.estado {
+        background-color: #fafad2;
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+}
+.populacao {
+        background-color: #fafad2;
+        width: 150px;
+        height: 30px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+}
+.proporcao {
+    background-color: #fafad2;
+	width: 120px;
+	height: 30px;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.periodo {
+	background-color: #fafad2;
+	width: 150px;
+	height: 30px;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.frequencia {
+	background-color: #fafad2;
+	width: 120px;
+	height: 30px;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.localidadeResult {
+        background-color: #f5f5dc;
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+}
+.estadoResult {
+        background-color: #f5f5dc;
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+}
+.populacaoResult {
+        background-color: #f5f5dc;
+        width: 150px;
+        height: 30px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+}
+.proporcaoResult {
+        background-color: #f5f5dc;
+        width: 120px;
+        height: 30px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+}
+.periodoResult {
+	background-color: #f5f5dc;
+	width: 150px;
+	height: 30px;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.frequenciaResult {
+	background-color: #f5f5dc;
+	width: 120px;
+	height: 30px;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 400px){
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+	body {
+		justify-content: center;
+		text-align: center;
+		margin: 0%;
+	}
+	.header {
+		margin: 20px 0px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.header h1 {
+		font-size: 30px;
+		font-weight: bold;
+		padding: 10px;
+	}
+	.main {
+		margin: 0px;
+		height: auto;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	p {
+		font-size: 15px;
+		padding: 10px;
+	}
+	#nome {
+		margin-top: 20px;
+		margin-left: 0px;
+		width: 100px;
+		height: 20px;
+		padding: 0px;
+	}
+	#estado {
+		margin-top: 20px;
+		margin-left: 0px;
+		width: 150px;
+		font-size: 15px;
+	}
+	#botao {
+		width: 100px;
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	#tabelaResultado {
+		margin-top: 20px;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+	.localidade {
+        width: 80px;
+        height: 20px;
+        font-size: 12px;
+	}
+	.estado {
+        width: 80px;
+        height: 20px;
+        font-size: 12px;
+	}
+	.populacao {
+        width: 120px;
+        height: 20px;
+        font-size: 12px;
+	}
+	.proporcao {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.periodo {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.frequencia {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.localidadeResult {
+		width: 80px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.estadoResult {
+		width: 80px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.populacaoResult {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.proporcaoResult {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.periodoResult {
+		width: 120px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.frequenciaResult {
+		width: 120px;
+		height: 20px;
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 440px){
+	body {
+		justify-content: center;
+		text-align: center;
+	}
+	.header {
+		margin: 20px 0px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.header h1 {
+		font-size: 30px;
+		font-weight: bold;
+		padding: 10px;
+	}
+	.main {
+		margin-top: 20px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 10px;
+		height: auto;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	p {
+		font-size: 15px;
+		padding: 10px;
+	}
+	#nome {
+		margin-top: 20px;
+		margin-left: 0px;
+		width: 100px;
+		height: 20px;
+		padding: 0px;
+	}
+	#estado {
+		margin-top: 20px;
+		margin-left: 0px;
+		width: 150px;
+		font-size: 15px;
+	}
+	#botao {
+		width: 100px;
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	#tabelaResultado {
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.localidade {
+        width: 80px;
+        height: 20px;
+        font-size: 12px;
+	}
+	.estado {
+        width: 80px;
+        height: 20px;
+        font-size: 12px;
+	}
+	.populacao {
+        width: 120px;
+        height: 20px;
+        font-size: 12px;
+	}
+	.proporcao {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.periodo {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.frequencia {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.localidadeResult {
+		width: 80px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.estadoResult {
+		width: 80px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.populacaoResult {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.proporcaoResult {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.periodoResult {
+		width: 120px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.frequenciaResult {
+		width: 120px;
+		height: 20px;
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 640px){
+	body {
+		justify-content: center;
+		text-align: center;
+	}
+	.header {
+		margin: 20px 0px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.header h1 {
+		font-size: 30px;
+		font-weight: bold;
+		padding: 10px;
+	}
+	.main {
+		margin: 20px 0px;
+		height: auto;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	p {
+		font-size: 15px;
+		padding: 10px;
+	}
+	#nome {
+		margin-top: 20px;
+		margin-left: 0px;
+		width: 350px;
+		height: 20px;
+		padding: 0px;
+	}
+	#estado {
+		margin-top: 20px;
+		margin-left: 0px;
+		width: 150px;
+		font-size: 15px;
+	}
+	#botao {
+		width: 100px;
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	#tabelaResultado {
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.localidade {
+        width: 80px;
+        height: 20px;
+        font-size: 12px;
+	}
+	.estado {
+        width: 80px;
+        height: 20px;
+        font-size: 12px;
+	}
+	.populacao {
+        width: 120px;
+        height: 20px;
+        font-size: 12px;
+	}
+	.proporcao {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.periodo {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.frequencia {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.localidadeResult {
+		width: 80px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.estadoResult {
+		width: 80px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.populacaoResult {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.proporcaoResult {
+		width: 100px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.periodoResult {
+		width: 120px;
+		height: 20px;
+		font-size: 12px;
+	}
+	.frequenciaResult {
+		width: 120px;
+		height: 20px;
+		font-size: 12px;
+	}
+}
